@@ -26,6 +26,8 @@ pipeline{
 				oc project nsbbey-greetings
 				oc start-build greeting-console --follow --wait
 			'''
+	}
+}
         // Add the Release stage here
     }
 }
